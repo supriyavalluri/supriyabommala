@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Scrollable Content Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #8ae98d;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .sidebar {
+            width: 25%;
+            background-color: #f5bdbd;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-y: auto; 
+        }
+        .content {
+            width: 75%;
+            padding: 15px;
+            box-sizing: border-box;
+            overflow-y: auto; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+            <p>This is the sidebar content.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in purus et lacus auctor consequat. Integer tincidunt lacus eu eros dictum, in aliquet orci accumsan. Proin fringilla ipsum et odio dictum, ut vehicula arcu convallis. Cras a efficitur eros. Aenean vel turpis sit amet odio elementum tincidunt. Ut eget lorem quis lorem tincidunt fermentum. Vivamus nec nisi vitae odio blandit venenatis. Suspendisse potenti.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in purus et lacus auctor consequat. Integer tincidunt lacus eu eros dictum, in aliquet orci accumsan. Proin fringilla ipsum et odio dictum, ut vehicula arcu convallis. Cras a efficitur eros. Aenean vel turpis sit amet odio elementum tincidunt. Ut eget lorem quis lorem tincidunt fermentum. Vivamus nec nisi vitae odio blandit venenatis. Suspendisse potenti.</p>
+        </div>
+        <div class="content">
+            <h2>Main Content</h2>
+            <p>This is the main content area.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in purus et lacus auctor consequat. Integer tincidunt lacus eu eros dictum, in aliquet orci accumsan. Proin fringilla ipsum et odio dictum, ut vehicula arcu convallis. Cras a efficitur eros. Aenean vel turpis sit amet odio elementum tincidunt. Ut eget lorem quis lorem tincidunt fermentum. Vivamus nec nisi vitae odio blandit venenatis. Suspendisse potenti.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in purus et lacus auctor consequat. Integer tincidunt lacus eu eros dictum, in aliquet orci accumsan. Proin fringilla ipsum et odio dictum, ut vehicula arcu convallis. Cras a efficitur eros. Aenean vel turpis sit amet odio elementum tincidunt. Ut eget lorem quis lorem tincidunt fermentum. Vivamus nec nisi vitae odio blandit venenatis. Suspendisse potenti.</p>
+        </div>
+    </div>
+</body>
+</html>
