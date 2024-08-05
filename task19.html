@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Box Model Example Website</title>
+    <style>
+        div {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 2px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .box {
+            margin: 10px 0;
+            padding: 20px;
+            border: 2px solid #4CAF50;
+            background-color: #e8f5e9;
+        }
+        .box h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Box 1</h2>
+            <p>This is an example of a box using the CSS box model properties. It has margin, padding, border, and content.</p>
+        </div>
+        <div class="box">
+            <h2>Box 2</h2>
+            <p>This is another example of a box using the CSS box model properties. Each box has the same styles applied to it.</p>
+        </div>
+        <div class="box">
+            <h2>Box 3</h2>
+            <p>Notice how the padding creates space inside the border, the margin creates space outside the border, and the border surrounds the padding and content.</p>
+        </div>
+    </div>
+</body>
+</html>
